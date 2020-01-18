@@ -1,0 +1,10 @@
+((*- extends 'article.tplx' -*))
+
+((* block packages *))
+((( super() )))
+\usepackage{fontspec}
+\setmainfont{Ubuntu}
+((* endblock packages *))
+
+((* block maketitle *))
+((* endblock maketitle *))
